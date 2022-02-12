@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/buttonNormal"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#5BC0DE"
+            android:onClick="startNormalOthello"
+            android:text="@string/start_normal_osero"
+            android:textColor="#F7F7F7"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/buttonMican"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#5BC0DE"
+            android:onClick="startMicanOthello"
+            android:text="@string/start_mican_osero"
+            android:textColor="#F7F7F7"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/buttonAI"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#5BC0DE"
+            android:onClick="startAiOthello"
+            android:text="@string/start_ai_osero"
+            android:textColor="#F7F7F7"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/buttonLicense"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#59686C"
+            android:onClick="startLicenseActivity"
+            android:text="@string/start_license_activity"
+            android:textColor="#F7F7F7"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </Space>
+    </LinearLayout>
+</layout>

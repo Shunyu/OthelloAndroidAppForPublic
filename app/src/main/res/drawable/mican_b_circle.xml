@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#5bc0de"/>
+
+            <size
+                android:width="32px"
+                android:height="32px"/>
+        </shape>
+    </item>
+
+    <item android:gravity="center">
+        <shape android:shape="oval">
+
+            <solid android:drawable="@drawable/mican_b_old"/>
+
+            <stroke
+                android:width="3px"
+                android:color="#292b2c" />
+
+            <size
+                android:width="28px"
+                android:height="28px" />
+
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SimpleOthello</string>
+    <string name="player1_hint">Player 1</string>
+    <string name="player2_hint">Player 2</string>
+    <string name="game_dialog_title">New game</string>
+    <string name="done">Done</string>
+    <string name="game_dialog_empty_name">Name mustn\'t be empty</string>
+    <string name="game_dialog_same_names">Names mustn\'t be the same</string>
+    <string name="game_end_dialog_headline">勝者は</string>
+    <string name="start_normal_osero">通常版\nオセロ</string>
+    <string name="start_mican_osero">みきゃん版\nオセロ</string>
+    <string name="start_ai_osero">AI版\nオセロ</string>
+    <string name="start_license_activity">オープンソース\nライセンス</string>
+    <string name="finish_normal_osero">Finish Normal Osero</string>
+    <string name="get_hint">ヒント</string>
+    <string name="restart">始めから</string>
+    <string name="login">対戦成績記録オン\n（ログイン）</string>
+    <string name="logout">対戦成績記録オフ\n（ログアウト）</string>
+    <string name="success">認証コード獲得成功</string>
+    <string name="code_error">認証コード獲得失敗</string>
+    <string name="token_error">アクセストークン取得失敗</string>
+    <string name="refresh_token_error">再ログインが必要です。</string>
+    <string name="email">メール</string>
+    <string name="hi">トークンをリフレッシュ</string>
+    <string name="custom_license_title">オープンソースライセンス一覧</string>
+    <string name="mican_description">許諾番号 306014\n愛媛県イメージアップキャラクターみきゃん\n愛媛県ダークみきゃん</string>
+    <string name="internet_alert_description">AI版オセロではインターネットにアクセスします。\nオフライン時にはAI版オセロは終了し、メニュー画面に戻ります。</string>
+    <string name="internet_access_error">インターネットへのアクセスにエラーが発生しました。\nAI版オセロは終了し、メニュー画面に戻ります。</string>
+</resources>
